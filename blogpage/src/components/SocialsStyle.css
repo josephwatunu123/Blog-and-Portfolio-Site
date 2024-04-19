@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+
+#SocialsDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+
+
+}
+
+#SocialsListLeft{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    flex-grow: 1; /
+}
+
+#SocialsListRight{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}

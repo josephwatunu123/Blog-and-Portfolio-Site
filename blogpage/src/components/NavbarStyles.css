@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EAEACE;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+#NavDiv {
+    display: flex;
+    justify-content: center; /* Horizontally center the children */
+    align-items: center;
+    flex-grow: 1; /* Allow the flex container to grow */
+}
+
+#NavList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#NavList li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#NavList li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+#NavList li a:hover{
+    color: white;
+}
