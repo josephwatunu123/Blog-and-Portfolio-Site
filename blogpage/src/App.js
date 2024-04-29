@@ -1,12 +1,13 @@
 import Navbar from './components/Navbar';
 import Socials from './components/Socials';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Landingcard from './components/Landingcard';
+
 
 function App() {
   return (
     <div>
-    <Socials />
       <Navbar />
+      <Landingcard />
     </div>
 
 
