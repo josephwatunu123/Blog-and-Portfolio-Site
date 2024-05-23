@@ -1,0 +1,38 @@
+.socialNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    height: 80px;
+}
+
+.SocialsDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    list-style: none; /* Remove default list styles */
+    padding: 0px;
+    margin: 0; /* Remove default margin */
+}
+
+li {
+    margin: 0 10px; /* Space between list items */
+}
+
+#SocialsListRight li a {
+    color: black; /* Ensure the social icons are visible */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.write, .join {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 1rem;
+    font-weight: bold;
+    color: black;
+}

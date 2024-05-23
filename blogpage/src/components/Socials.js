@@ -1,26 +1,23 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {} from '@fortawesome/fontawesome-svg-core'
-import {  } from '@fortawesome/free-regular-svg-icons'
-import { linkedIn, instagram, twitter } from '@fortawesome/free-solid-svg-icons'
-export default function Socials(){
+import classes from "../Styles/SocialsStyle.module.css";
+import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
+export default function Socials() {
     return (
-        <>
-        <nav>
-            <div id="SocialsDiv">
-                <ul id="SocialsListLeft">
-                    <li> <a href='index.html'>Write</a> </li>
-                    <li> <a href='index.html'>Join</a> </li>
-                    </ul>
-                <ul id='SocialsListRight'> 
-                    <li> <a href='index.html'><FontAwesomeIcon icon="fa-brands fa-instagram" /></a> </li>
-                    <li> <a href='index.html'><FontAwesomeIcon icon="fa-brands fa-x-twitter" /></a> </li>
-                    <li> <a href='index.html'><FontAwesomeIcon icon="fa-brands fa-linkedin-in" /></a> </li>
-                    <li> <a href='index.html'><FontAwesomeIcon icon="fa-brands fa-github" /></a> </li>
+        <nav className={classes.socialNav}>
+            <div className={classes.SocialsDiv}>
+                <ul id="SocialsListLeft" className={classes.socialsList}>
+                    <li><a href='index.html' className={classes.write}>Write</a></li>
+                    <li><a href='index.html' className={classes.join}>Join</a></li>
+                </ul>
+                <ul id='SocialsListRight' className={classes.socialsList}>
+                    <li><a href='index.html'><FaInstagram /></a></li>
+                    <li><a href='index.html'><FaXTwitter /></a></li>
+                    <li><a href='index.html'><FaLinkedinIn /></a></li>
+                    <li><a href='index.html'><FaGithub /></a></li>
                 </ul>
             </div>
         </nav>
-        </>
-    )
+    );
 }
-

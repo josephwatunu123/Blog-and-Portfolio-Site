@@ -1,13 +1,15 @@
-import Navbar from './components/Navbar';
+import React from 'react';
+import Title from './components/Title';
 import Socials from './components/Socials';
-import Landingcard from './components/Landingcard';
 
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Landingcard />
+      <Title />
+      <Socials />
+      
+
     </div>
 
 
